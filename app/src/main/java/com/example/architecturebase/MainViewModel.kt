@@ -8,7 +8,7 @@ import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
 
-class MainViewModel() : ViewModel(), Contract.IViewModel {
+class MainViewModel : ViewModel(), Contract.IViewModel {
 
     private val repository: RemoteRepository = RemoteRepository()
     private val newsUseCase = NewsUseCase()
