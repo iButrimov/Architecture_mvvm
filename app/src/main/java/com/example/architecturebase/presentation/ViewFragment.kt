@@ -1,4 +1,4 @@
-package com.example.architecturebase
+package com.example.architecturebase.presentation
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -9,9 +9,9 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.Observer
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.architecturebase.adapter.MainAdapter
+import com.example.architecturebase.presentation.adapter.MainAdapter
 import com.example.architecturebase.databinding.FragmentViewBinding
-import com.example.architecturebase.network.model.Post
+import com.example.architecturebase.domain.entities.Post
 
 class ViewFragment : Fragment() {
 

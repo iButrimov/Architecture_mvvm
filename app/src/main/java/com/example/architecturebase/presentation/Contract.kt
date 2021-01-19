@@ -1,7 +1,7 @@
-package com.example.architecturebase
+package com.example.architecturebase.presentation
 
 import androidx.lifecycle.LiveData
-import com.example.architecturebase.network.model.Post
+import com.example.architecturebase.domain.entities.Post
 
 interface Contract {
 
